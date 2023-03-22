@@ -1,0 +1,90 @@
+:root{
+    --primary: beige;
+    --secondary: rgb(42, 40, 40);
+    --terziary: grey;
+
+
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.navbar {
+   /* border-bottom: 1px solid black; */
+    background-color: white;
+    height: 70px;
+}
+
+.navLink:hover{
+text-decoration: underline;
+text-decoration-color: var(--terziary);
+
+}
+
+
+.colorScritta{
+    color: var(--secondary);
+}
+
+.colorAranc{
+    color: white;
+}
+
+.img-background{
+    height: 70vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.361), rgba(255, 255, 255, 0.72)), url(./media/Background);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.paragraf2{
+    background-color: var(--terziary);
+    border-radius: 0px 8px 8px 0px;
+    height: 70px;
+}
+
+.paragraf1{
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+    height: 70px;
+
+}
+
+.proviamo{
+    margin-top: -40px;
+    margin-bottom: -30px;
+}
+
+.margin-bg {
+    background-color: var(--primary);
+    height: 500px;
+}
+
+.btn-terziary {
+    background-color: var(--terziary) !important;
+}
+
+.icons {
+    color: gold;
+    
+}
+
+.incons-2 {
+    color: red;
+}
+
+.icons-3 {
+    color: rgb(67, 89, 35);
+}
+
+.icons-4 {
+    color: darkterziary;
+}
+
+.img-article {
+    width: 245px;
+    height: 245px;
+}
